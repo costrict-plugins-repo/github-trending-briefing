@@ -1,0 +1,15 @@
+*.swp
+*~
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+
+# karr materialized task view -- never commit
+tasks/
+config.yml
+
+# Claude Code worktrees (claude --worktree / isolated agents) -- never commit
+/.claude/worktrees/
